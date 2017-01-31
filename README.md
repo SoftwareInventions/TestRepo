@@ -3,7 +3,7 @@ Temp repo for use in Git demo
 
 -SoftwareInventions
 -ngflanders
--KirillKudaev!
+-KirillKudaev
 -Cphillips16
 -TourneyMan
 -bcm27
