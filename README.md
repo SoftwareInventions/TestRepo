@@ -9,3 +9,6 @@ Temp repo for use in Git demo
 -aebreneman
 -ZacharyMatthiesen
 -LeeTarnow
+-nicolegerber
+-emmafherman4
+-ggoodsell694
