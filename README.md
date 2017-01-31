@@ -1,9 +1,8 @@
 # TestRepo
 Temp repo for use in Git demo
 
--SoftwareInventions
 -ngflanders
--KirillKudaev!
+-KirillKudaev
 -Cphillips16
 -TourneyMan
 -bcm27
@@ -12,4 +11,8 @@ Temp repo for use in Git demo
 -LeeTarnow
 -nicolegerber
 -emmafherman4
+<<<<<<< HEAD
 
+=======
+-ggoodsell694
+>>>>>>> 229e1e125b260db4b03021f1e8ea9273bba9c62a
