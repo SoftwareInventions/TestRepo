@@ -1,0 +1,48 @@
+body {
+    font-family: 'Times New Roman';
+    font-size: 1em;
+}
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.Normal {
+    text-align: left;
+    page-break-inside: auto;
+    page-break-after: auto;
+    page-break-before: avoid;
+    line-height: 107.916664%;
+    margin-top: 0pt;
+    margin-bottom: 8pt;
+    font-family: Calibri;
+    font-size: 11pt;
+    text-transform: none;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+}
+.Default-Paragraph-Font {
+    font-family: Calibri;
+    font-size: 11pt;
+    text-transform: none;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+}
+.Normal-Table {} .No-List {} .List-Paragraph {
+    text-align: left;
+    page-break-inside: auto;
+    page-break-after: auto;
+    page-break-before: avoid;
+    line-height: 107.916664%;
+    margin-top: 0pt;
+    margin-bottom: 8pt;
+    margin-left: 36pt;
+    font-family: Calibri;
+    font-size: 11pt;
+    text-transform: none;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+}
