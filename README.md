@@ -14,3 +14,4 @@ Temp repo for use in Git demo
 -ggoodsell694
 -timbassler
 _mchristianson0
+-samuelpmeier
