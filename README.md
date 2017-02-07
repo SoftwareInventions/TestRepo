@@ -1,6 +1,7 @@
 # TestRepo
 Temp repo for use in Git demo
 
+-Martin Soemarsono
 -ngflanders
 -KirillKudaev
 -Cphillips16
@@ -8,9 +9,11 @@ Temp repo for use in Git demo
 -bcm27
 -aebreneman
 -ZacharyMatthiesen
--LeeTarnow
+-LeeTarnow(newLine)
 -nicolegerber
 -emmafherman
 -ggoodsell694
 -timbassler
 _mchristianson0
+-samuelpmeier
+-ClintStaley
