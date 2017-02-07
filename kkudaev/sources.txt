@@ -1,1 +1,2 @@
 https://en.wikipedia.org/wiki/Insertion_sort
+https://courses.cs.vt.edu/csonline/Algorithms/Lessons/InsertionSort/index.html
