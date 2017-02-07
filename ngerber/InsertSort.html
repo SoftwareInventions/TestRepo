@@ -1,0 +1,11 @@
+<h2 align=center>Insertion Sort</h2>
+<h4 align=center>Nicole Gerber</h4>
+<p>An insertion sort is an algorithm that sorts a collection of numbers (usually an array) by using a pair of nested loops. The outer loop starts at the first number in the array and iterates forward, while the inner loop starts at the current position of the outer loop in the array and iterates backward. As the inner loop traverses backward through the array, the code inside of the inner loop compares the number at the current position to the number at the position behind it, and swaps the numbers if they are not in order.</p>
+<pre>
+for (i = 0; i < array.length; i++) {
+   for (j = i; j < 0; j--) {
+      if (array[j] < array[j - 1])
+         swap(j, j - 1);
+   }
+}</pre>
+<p>By this method, the array is sorted as if each progressive number is “inserted” into its correct place in the array.</p>
