@@ -39,7 +39,7 @@ Assignment is not DeMarco analysis, but a written response to the prompt at the 
 Assignments:
 
 1. Refinement of your writing from Tuesday if you would like to
-2. <Reflection comparing DeMarco p3 and Spolsky>
+2. (150 words max) Compare and contrast DeMarco's (part 3) and Spolsky's (Guerilla Guide to Interviewing) views on hiring.
  
  ## Week 4
  ### Tuesday
