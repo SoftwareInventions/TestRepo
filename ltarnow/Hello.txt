@@ -1,3 +1,0 @@
-get origin pull master
-why doesnt my command work
-get commit -am"whats wrong with this thing"
