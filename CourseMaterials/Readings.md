@@ -39,8 +39,7 @@ Assignment is not DeMarco analysis, but a written response to the prompt at the 
 Assignments:
 
 1. Refinement of your writing from Tuesday if you would like to
-2. (150 words max) Compare and contrast DeMarco's (part 3) and Spolsky's views
-on hiring.  On what points would they agree?  Where might they disagree? 
+2. (150 words max) Compare and contrast DeMarco's (part 3) and Spolsky's views on hiring.  On what points would they agree?  Where might they disagree?
  
  ## Week 4
  ### Tuesday
