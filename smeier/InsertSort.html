@@ -799,9 +799,12 @@ style='mso-spacerun:yes'>  </span><span style='mso-spacerun:yes'> </span>| </p>
 <p class=MsoNoSpacing><o:p>&nbsp;</o:p></p>
 
 <p class=MsoNoSpacing><span style='mso-spacerun:yes'> </span>The algorithm then
-repeats the same process by taking the third element, and
-comparing it to the second sorted element. If the third places lower than the
-second sorted, it checks it against the first sorted element. </p>
+repeats the same process by taking the next unsorted element, and
+compares it to the first sorted element. If the unsorted element places lower than the
+first sorted element, the algorithm checks the unsorted element against the next 
+sorted element. this process stops when the third element finds a spot inbetween 
+two elements; the unsorted element places higher than the sorted element in front,
+and lower than the sorted element behind.</p>
 
 <p class=MsoNoSpacing><o:p>&nbsp;</o:p></p>
 
