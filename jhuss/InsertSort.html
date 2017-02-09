@@ -1,11 +1,24 @@
 <html>
 <h1>Jacob Huss</h1>
 <p><h2>Insertion Sort Technical Description</h2>
-<br />Given an unsorted array, an insertion sort algorithm will sort the elements of said array in ascending order.
+<br />Given an unsorted array, an insertion sort algorithm will rearrange the elements of the array in sorted order.
+<br />For the purposes of this explanation, let's assume that the elements of the array are to be sorted in ascending order.
 <br />This algorithm traverses each index of the unsorted array with a for loop, starting with the second index.
 <br />In each iteration of the for loop, the element in the array at the index being traversed is stored as the ‘current’ element.
 <br />Then, a while loop continuously swaps the ‘current’ element with the element before it in the array until either:</p>
 <ol><li>The element directly before the ‘current’ element is smaller than the ‘current’ element
 <li>The ‘current’ element is at index 0</ol>
 <p>Either of these conditions causes the while loop to stop and the next iteration of the for loop to start, until all indices have been iterated through.
+<p>The following code block shows how the insertion sort can be implemented in Java to sort a small array of integers in ascending order:
+<p>			int[] numbersToSort = {4, 12, 8, 6, 14, 2};
+<br />		for (int i = 1; i < numbersToSort.length; i++) {
+<br />&emsp;		int current = numbersToSort[i];
+<br />&emsp;		while (i != 0 && current < numbersToSort[i-1]) {
+<br />&emsp;&emsp;			int tempInt = numbersToSort[i-1];
+<br />&emsp;&emsp;			numbersToSort[i-1] = numbersToSort[i];
+<br />&emsp;&emsp;			numbersToSort[i] = tempInt;
+<br />&emsp;&emsp;			i--;
+<br />&emsp;&emsp;			current = numbersToSort[i];
+<br />&emsp;		}
+<br />		}
 </html>

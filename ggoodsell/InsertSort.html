@@ -1,0 +1,26 @@
+<h3 align=left>Insert Sort</h3>
+
+<h5 align=left>Gavin Goodsell</h5>
+
+<pre>
+We will assume that one is working with an array of numbers and wants to sort in ascending order. 
+It is useful to point out, though, that this algorithm is applicable to many different types of lists 
+containing any type of comparable data. 
+
+An outer loop iterates through the array starting at the second element. Starting at the current location 
+of the outer loop, an inner loop traverses through the list in the opposite direction as the outer loop 
+starting at the “current” location of the outer loop. As the inner loop iterates though the elements in the 
+opposite direction, it compares the current outer loop element to each of the iterated elements of the inner 
+loop in succession and swaps them if they are found to not be in ascending order. 
+
+The inner loop stops iteration for two reasons: <ol><li>The current outer loop element is determined to be in sorted order within the array</li><li>The inner loop reaches the beginning of the array</li>
+</ol></pre>
+<pre>
+//Insert Sort Example In Java
+for (i = 1; i < array.length; i++) {
+   for (j = i; j > 0; j--) {
+      if (array[j] < array[j - 1])
+         swap(j, j - 1);
+   }
+}
+</pre>

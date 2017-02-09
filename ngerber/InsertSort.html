@@ -5,7 +5,7 @@
 for (i = 1; i < array.length; i++) {
    for (j = i; j > 0; j--) {
       if (array[j] < array[j - 1])
-         swap(j, j - 1);
+         swap(array[j], array[j - 1]);
    }
 }</pre>
 <p>By this method, the array is sorted as if each progressive number is “inserted” into its correct place in the array.</p>
