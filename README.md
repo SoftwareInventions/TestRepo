@@ -19,3 +19,4 @@ Temp repo for use in Git demo
 _mchristianson0
 -samuelpmeier
 -ClintStaley
+-EmmaHerman(newLine)

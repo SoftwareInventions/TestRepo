@@ -15,16 +15,16 @@ xmlns="http://www.w3.org/TR/REC-html40">
  <o:DocumentProperties>
   <o:Author>Emma Herman</o:Author>
   <o:LastAuthor>Emma Herman</o:LastAuthor>
-  <o:Revision>2</o:Revision>
-  <o:TotalTime>64</o:TotalTime>
+  <o:Revision>3</o:Revision>
+  <o:TotalTime>161</o:TotalTime>
   <o:Created>2017-02-07T15:11:00Z</o:Created>
-  <o:LastSaved>2017-02-07T15:11:00Z</o:LastSaved>
+  <o:LastSaved>2017-02-09T15:12:00Z</o:LastSaved>
   <o:Pages>1</o:Pages>
-  <o:Words>226</o:Words>
-  <o:Characters>1293</o:Characters>
+  <o:Words>211</o:Words>
+  <o:Characters>1204</o:Characters>
   <o:Lines>10</o:Lines>
-  <o:Paragraphs>3</o:Paragraphs>
-  <o:CharactersWithSpaces>1516</o:CharactersWithSpaces>
+  <o:Paragraphs>2</o:Paragraphs>
+  <o:CharactersWithSpaces>1413</o:CharactersWithSpaces>
   <o:Version>15.0</o:Version>
  </o:DocumentProperties>
  <o:OfficeDocumentSettings>
@@ -674,11 +674,10 @@ xmlns="http://www.w3.org/TR/REC-html40">
 @font-face
 	{font-family:"Cambria Math";
 	panose-1:2 4 5 3 5 4 6 3 2 4;
-	mso-font-charset:1;
-	mso-generic-font-family:roman;
-	mso-font-format:other;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
 	mso-font-pitch:variable;
-	mso-font-signature:0 0 0 0 0 0;}
+	mso-font-signature:-536870145 1107305727 0 0 415 0;}
  /* Style Definitions */
 p.MsoNormal, li.MsoNormal, div.MsoNormal
 	{mso-style-unhide:no;
@@ -840,79 +839,56 @@ table.MsoNormalTable
 
 <div class=WordSection1>
 
-<p class=MsoNormal align=right style='text-align:right'><span style='font-family:
-Times;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
-color:black'>Emma Herman<o:p></o:p></span></p>
-
-<p class=MsoNormal align=right style='text-align:right'><span style='font-family:
-Times;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
-color:black'>CSCI 332<o:p></o:p></span></p>
-
-<p class=MsoNormal align=right style='text-align:right'><span style='font-family:
-Times;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
-color:black'>Clint Staley<o:p></o:p></span></p>
-
-<p class=MsoNormal align=right style='text-align:right'><span style='font-family:
-Times;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
-color:black'>2/6/17<o:p></o:p></span></p>
-
 <p class=MsoNormal align=center style='text-align:center'><span
 style='font-family:Times;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
 "Times New Roman";color:black'>Insertion Sort<o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span
+style='font-family:Times;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman";color:black'>By Emma Herman<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-family:Times;mso-fareast-font-family:"Times New Roman";
 mso-bidi-font-family:"Times New Roman";color:black'><o:p>&nbsp;</o:p></span></p>
 
 <p class=MsoNormal><span style='font-family:"Times New Roman";mso-fareast-font-family:
-"Times New Roman"'>An insertion sort as a comparison-based algorithm with sorts
-an array of unsorted numbers into a final, sorted array.<o:p></o:p></span></p>
+"Times New Roman"'>An insertion sort as a comparison-based algorithm which sorts
+an array of unsorted numbers into a sorted array. For the purposes of this
+example, let’s sort an array of integers in ascending order. <o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-family:"Times New Roman";mso-fareast-font-family:
 "Times New Roman"'><o:p>&nbsp;</o:p></span></p>
 
 <p class=MsoNormal><span style='font-family:"Times New Roman";mso-fareast-font-family:
-"Times New Roman"'>The array which is passed into the parameters of the <span
-class=SpellE>doInsertionSort</span> method consists of unsorted integers, which
-<span class=SpellE>doInsertionSort</span> then sorts in order from least to
-greatest integer.<o:p></o:p></span></p>
+"Times New Roman"'>The following code sample, a method called “<span
+class=SpellE>iSort</span>”, is given an unsorted integer array called “<span
+class=SpellE>aiArray</span>”. The first for-loop in <span class=SpellE>iSort</span>
+advances and checks the index of the array after each iteration. This outer
+loop stops once the index reaches the last element of the array.<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-family:"Times New Roman";mso-fareast-font-family:
 "Times New Roman"'><o:p>&nbsp;</o:p></span></p>
 
-<p class=MsoNormal style='text-indent:.5in'><span style='font-family:"Times New Roman";
-mso-fareast-font-family:"Times New Roman"'>public static <span class=SpellE><span
-class=GramE>int</span></span><span class=GramE>[</span>] <span class=SpellE>doInsertionSort</span>(<span
-class=SpellE>int</span>[] input){<o:p></o:p></span></p>
+<p class=MsoNormal><span style='font-family:"Times New Roman";mso-fareast-font-family:
+"Times New Roman"'>public static <span class=SpellE><span class=GramE>int</span></span><span
+class=GramE>[</span>] <span class=SpellE>iSort</span>(<span class=SpellE>int</span>[]
+<span class=SpellE>aiArray</span>){<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-family:"Times New Roman";mso-fareast-font-family:
-"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
-
-<p class=MsoNormal><span class=SpellE><span style='font-family:"Times New Roman";
-mso-fareast-font-family:"Times New Roman"'>doInsertionSort</span></span><span
-style='font-family:"Times New Roman";mso-fareast-font-family:"Times New Roman"'>
-contains two for-loops. The first for-loop creates and checks the index of the “input”
-array. At the end of each loop, the index advances and continues to sort if the
-index of the array is not yet at the last element. Once the array, input is
-sorted, this newly sorted array is returned.<o:p></o:p></span></p>
-
-<p class=MsoNormal><span style='font-family:"Times New Roman";mso-fareast-font-family:
-"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
-
-<p class=MsoNormal><span class=SpellE><span style='font-family:"Times New Roman";
-mso-fareast-font-family:"Times New Roman"'>int</span></span><span
-style='font-family:"Times New Roman";mso-fareast-font-family:"Times New Roman"'>
-temp;<o:p></o:p></span></p>
+"Times New Roman"'><span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span class=SpellE>int</span>
+<span class=SpellE>iTemp</span>;<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-family:"Times New Roman";mso-fareast-font-family:
 "Times New Roman"'><span
 style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>for
-(<span class=SpellE>int</span> <span class=SpellE>i</span> = 1; <span
-class=SpellE>i</span> &lt; <span class=SpellE><span class=GramE>input.length</span></span>;
-<span class=SpellE>i</span>++) {<o:p></o:p></span></p>
+(<span class=SpellE>int</span> index = 1; index &lt; <span class=SpellE><span
+class=GramE>int.length</span></span>; index++){<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-family:"Times New Roman";mso-fareast-font-family:
-"Times New Roman"'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>//second
-for-loop<o:p></o:p></span></p>
+"Times New Roman"'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+style='color:#2F5597;mso-themecolor:accent5;mso-themeshade:191;mso-style-textfill-fill-color:
+#2F5597;mso-style-textfill-fill-themecolor:accent5;mso-style-textfill-fill-alpha:
+100.0%;mso-style-textfill-fill-colortransforms:lumm=75000'>//inner loop</span><o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-family:"Times New Roman";mso-fareast-font-family:
 "Times New Roman"'>}<o:p></o:p></span></p>
@@ -929,55 +905,84 @@ style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 "Times New Roman"'><o:p>&nbsp;</o:p></span></p>
 
 <p class=MsoNormal><span style='font-family:"Times New Roman";mso-fareast-font-family:
-"Times New Roman"'>The second for-loop is embedded within the previous
-for-loop. Given the index from the previous loop, the current loop compares the
-value stored at this index to all other values in the array before it. If it is
-the first index, the value is already “sorted” and the outer loop advances. The
-if-statement compares the indexed value to the value before it, the if the
-index value is lesser, <span class=GramE>than</span> the two values exchange
-places using a temporary variable, “temp”. <o:p></o:p></span></p>
+"Times New Roman"'>The inner loop compares the value stored in the index, or
+the “current” value, to the value in the array before it. If it is at index 0,
+the value is already “sorted” and the outer loop advances. The if-statement executes
+the comparison of <i style='mso-bidi-font-style:normal'>current</i> value to
+the one before it, or “previous” value. <span
+style='mso-spacerun:yes'>&nbsp;</span>If the <i style='mso-bidi-font-style:
+normal'>current</i> value is lesser than <i style='mso-bidi-font-style:normal'>previous,</i>
+<span class=GramE>than</span> the two values “swap” places using a temporary
+variable, named “<span class=SpellE>iTemp</span>”. <o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-family:"Times New Roman";mso-fareast-font-family:
 "Times New Roman"'><o:p>&nbsp;</o:p></span></p>
 
 <p class=MsoNormal><span style='font-family:"Times New Roman";mso-fareast-font-family:
-"Times New Roman"'><span
+"Times New Roman";color:#2F5597;mso-themecolor:accent5;mso-themeshade:191;
+mso-style-textfill-fill-color:#2F5597;mso-style-textfill-fill-themecolor:accent5;
+mso-style-textfill-fill-alpha:100.0%;mso-style-textfill-fill-colortransforms:
+lumm=75000'><span
 style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span><span class=GramE>for(</span><span class=SpellE>int</span> j = <span
-class=SpellE>i</span> ; j &gt; 0 ; j--){<o:p></o:p></span></p>
+</span><span class=GramE>for(</span><span class=SpellE>int</span> x = index ; x
+&gt; 0 ; x--){<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-family:"Times New Roman";mso-fareast-font-family:
-"Times New Roman"'><span
+"Times New Roman";color:#2F5597;mso-themecolor:accent5;mso-themeshade:191;
+mso-style-textfill-fill-color:#2F5597;mso-style-textfill-fill-themecolor:accent5;
+mso-style-textfill-fill-alpha:100.0%;mso-style-textfill-fill-colortransforms:
+lumm=75000'><span
 style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span>if(input[j] &lt; input[j-1<span class=GramE>]){</span><o:p></o:p></span></p>
+</span>if(<span class=SpellE>aiArray</span>[x] &lt; <span class=SpellE>aiArray</span>[x-1<span
+class=GramE>]){</span><o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-family:"Times New Roman";mso-fareast-font-family:
-"Times New Roman"'><span
+"Times New Roman";color:#2F5597;mso-themecolor:accent5;mso-themeshade:191;
+mso-style-textfill-fill-color:#2F5597;mso-style-textfill-fill-themecolor:accent5;
+mso-style-textfill-fill-alpha:100.0%;mso-style-textfill-fill-colortransforms:
+lumm=75000'><span
 style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span>temp = input[j];<o:p></o:p></span></p>
+</span><span class=SpellE>iTemp</span> = <span class=SpellE>aiArray</span>[x];<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-family:"Times New Roman";mso-fareast-font-family:
-"Times New Roman"'><span
-style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span>input[j] = input[j-1];<o:p></o:p></span></p>
+"Times New Roman";color:#2F5597;mso-themecolor:accent5;mso-themeshade:191;
+mso-style-textfill-fill-color:#2F5597;mso-style-textfill-fill-themecolor:accent5;
+mso-style-textfill-fill-alpha:100.0%;mso-style-textfill-fill-colortransforms:
+lumm=75000'><span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+class=SpellE>aiArray</span>[x] = <span class=SpellE>aiArray</span>[x-1];<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-family:"Times New Roman";mso-fareast-font-family:
-"Times New Roman"'><span
-style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span>input[j-1] = temp;<o:p></o:p></span></p>
+"Times New Roman";color:#2F5597;mso-themecolor:accent5;mso-themeshade:191;
+mso-style-textfill-fill-color:#2F5597;mso-style-textfill-fill-themecolor:accent5;
+mso-style-textfill-fill-alpha:100.0%;mso-style-textfill-fill-colortransforms:
+lumm=75000'><span style='mso-spacerun:yes'>&nbsp; </span><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+class=SpellE>aiArray</span>[x-1] = <span class=SpellE>iTemp</span>;<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-family:"Times New Roman";mso-fareast-font-family:
-"Times New Roman"'><span
+"Times New Roman";color:#2F5597;mso-themecolor:accent5;mso-themeshade:191;
+mso-style-textfill-fill-color:#2F5597;mso-style-textfill-fill-themecolor:accent5;
+mso-style-textfill-fill-alpha:100.0%;mso-style-textfill-fill-colortransforms:
+lumm=75000'><span
 style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span>}<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-family:"Times New Roman";mso-fareast-font-family:
-"Times New Roman"'><span
+"Times New Roman";color:#2F5597;mso-themecolor:accent5;mso-themeshade:191;
+mso-style-textfill-fill-color:#2F5597;mso-style-textfill-fill-themecolor:accent5;
+mso-style-textfill-fill-alpha:100.0%;mso-style-textfill-fill-colortransforms:
+lumm=75000'><span
 style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span>}<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-family:"Times New Roman";mso-fareast-font-family:
 "Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-family:"Times New Roman";mso-fareast-font-family:
+"Times New Roman"'>Insertion sorts are most efficient when used with small sets
+of numbers.<o:p></o:p></span></p>
 
 </div>
 
