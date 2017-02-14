@@ -11,7 +11,7 @@ Temp repo for use in Git demo
 -aebreneman
 -ZacharyMatthiesen
 
--LeeTarnow(newLine)
+-LeeTarnow(new Line)
 -nicolegerber
 -emmafherman
 -ggoodsell694(new line)
