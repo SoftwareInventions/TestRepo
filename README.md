@@ -6,15 +6,19 @@ Temp repo for use in Git demo
 -KirillKudaev
 -Cphillips16
 -TourneyMan
+
 -bcm27
 
 -aebreneman
 -ZacharyMatthiesen
+
 -LeeTarnow(newLine)
 -nicolegerber
 -emmafherman
--ggoodsell694
+-ggoodsell694(new line)
+
 -timbassler
 _mchristianson0
 -samuelpmeier
 -ClintStaley
+-EmmaHerman(newLine)
