@@ -2,7 +2,7 @@
 Temp repo for use in Git demo
 
 -Martin Soemarsono
--ngflanders
+-ngflanders (pull request!)
 -KirillKudaev
 -Cphillips16
 -TourneyMan
