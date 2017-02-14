@@ -16,16 +16,16 @@ xmlns:mv="http://macVmlSchemaUri" xmlns="http://www.w3.org/TR/REC-html40">
  <o:DocumentProperties>
   <o:Author>Caidi Phillips</o:Author>
   <o:LastAuthor>Caidi Phillips</o:LastAuthor>
-  <o:Revision>2</o:Revision>
-  <o:TotalTime>4</o:TotalTime>
-  <o:Created>2017-02-09T15:13:00Z</o:Created>
-  <o:LastSaved>2017-02-09T15:13:00Z</o:LastSaved>
+  <o:Revision>4</o:Revision>
+  <o:TotalTime>85</o:TotalTime>
+  <o:Created>2017-02-14T03:19:00Z</o:Created>
+  <o:LastSaved>2017-02-14T03:38:00Z</o:LastSaved>
   <o:Pages>1</o:Pages>
-  <o:Words>134</o:Words>
-  <o:Characters>769</o:Characters>
+  <o:Words>132</o:Words>
+  <o:Characters>758</o:Characters>
   <o:Lines>6</o:Lines>
   <o:Paragraphs>1</o:Paragraphs>
-  <o:CharactersWithSpaces>902</o:CharactersWithSpaces>
+  <o:CharactersWithSpaces>889</o:CharactersWithSpaces>
   <o:Version>15.0</o:Version>
  </o:DocumentProperties>
  <o:OfficeDocumentSettings>
@@ -33,8 +33,6 @@ xmlns:mv="http://macVmlSchemaUri" xmlns="http://www.w3.org/TR/REC-html40">
   <o:PixelsPerInch>96</o:PixelsPerInch>
  </o:OfficeDocumentSettings>
 </xml><![endif]-->
-<link rel=dataStoreItem href="InsertionSort.fld/item0001.xml"
-target="InsertionSort.fld/props002.xml">
 <link rel=themeData href="InsertionSort.fld/themedata.thmx">
 <!--[if gte mso 9]><xml>
  <w:WordDocument>
@@ -1586,20 +1584,26 @@ mso-background-themecolor:accent1;mso-background-themetint:51'>
 Phillips<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:11.0pt;line-height:115%'>Insertion
-sort is a type of sorting algorithm that creates a final sorted array.
-Insertion sort begins with the first two numbers in the list. The second number
-is removed from the list and compared to the first number. If the second number
-is less than the first number, the list is moved down and the second number
-becomes the first item in the list. If the second number is greater than the
-first, the second number stays in place. The third number in the list is
-removed and checked against the previous numbers. This follows the same logic,
-if the current number is greater than the previous they stay in the same order,
-or the current number is checked against the previous numbers until the current
-number is smaller than a previous number. This pattern continues down the list
-till all the elements are sorted and there isn’t another number.<span
-style='mso-spacerun:yes'>&nbsp;&nbsp; </span><o:p></o:p></span></p>
-
-<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+sort is a type of sorting algorithm that creates a final sorted list in
+ascending or descending order. Let’s assume the sorted list will be in
+ascending order and stored in an array. In the beginning of the Insertion sort
+the current element (<b style='mso-bidi-font-weight:normal'><i
+style='mso-bidi-font-style:normal'>curElm</i></b>) is the second element in the
+array and the previous element (<b style='mso-bidi-font-weight:normal'><i
+style='mso-bidi-font-style:normal'>preElm</i></b>) is the first element in the
+array. The <i style='mso-bidi-font-style:normal'>curElm</i> is compared to the <i
+style='mso-bidi-font-style:normal'>preElm</i> to see if the <i
+style='mso-bidi-font-style:normal'>curElm</i> is smaller. If the <i
+style='mso-bidi-font-style:normal'>curElm</i> is smaller than the <i
+style='mso-bidi-font-style:normal'>preElm</i>; then the <i style='mso-bidi-font-style:
+normal'>curElm</i> and the <i style='mso-bidi-font-style:normal'>preElm</i> are
+swapped. If the <i style='mso-bidi-font-style:normal'>preElm</i> is smaller
+than the <i style='mso-bidi-font-style:normal'>curElm</i>; the <i
+style='mso-bidi-font-style:normal'>curElm</i> stays in its current position.
+After each comparison and its respective action <i style='mso-bidi-font-style:
+normal'>curElm </i>points to the next unsorted element and <i style='mso-bidi-font-style:
+normal'>preElm</i> points the element in the sorted list. This pattern will
+continue till all the elements in the array are sorted into ascending order.</span></p>
 
 <p class=MsoNormal><o:p>&nbsp;</o:p></p>
 

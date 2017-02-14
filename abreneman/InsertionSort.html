@@ -16,16 +16,16 @@ xmlns:mv="http://macVmlSchemaUri" xmlns="http://www.w3.org/TR/REC-html40">
  <o:DocumentProperties>
   <o:Author>Amanda Breneman</o:Author>
   <o:LastAuthor>Amanda Breneman</o:LastAuthor>
-  <o:Revision>7</o:Revision>
-  <o:TotalTime>41</o:TotalTime>
+  <o:Revision>9</o:Revision>
+  <o:TotalTime>44</o:TotalTime>
   <o:Created>2017-02-07T02:08:00Z</o:Created>
-  <o:LastSaved>2017-02-08T20:16:00Z</o:LastSaved>
+  <o:LastSaved>2017-02-14T02:13:00Z</o:LastSaved>
   <o:Pages>1</o:Pages>
-  <o:Words>110</o:Words>
-  <o:Characters>630</o:Characters>
-  <o:Lines>5</o:Lines>
-  <o:Paragraphs>1</o:Paragraphs>
-  <o:CharactersWithSpaces>739</o:CharactersWithSpaces>
+  <o:Words>180</o:Words>
+  <o:Characters>1026</o:Characters>
+  <o:Lines>8</o:Lines>
+  <o:Paragraphs>2</o:Paragraphs>
+  <o:CharactersWithSpaces>1204</o:CharactersWithSpaces>
   <o:Version>14.0</o:Version>
  </o:DocumentProperties>
  <o:OfficeDocumentSettings>
@@ -368,13 +368,6 @@ xmlns:mv="http://macVmlSchemaUri" xmlns="http://www.w3.org/TR/REC-html40">
 	mso-generic-font-family:auto;
 	mso-font-pitch:variable;
 	mso-font-signature:-1593833729 1073750107 16 0 415 0;}
-@font-face
-	{font-family:Cambria;
-	panose-1:2 4 5 3 5 4 6 3 2 4;
-	mso-font-charset:0;
-	mso-generic-font-family:auto;
-	mso-font-pitch:variable;
-	mso-font-signature:-536870145 1073743103 0 0 415 0;}
  /* Style Definitions */
 p.MsoNormal, li.MsoNormal, div.MsoNormal
 	{mso-style-unhide:no;
@@ -1362,6 +1355,15 @@ span.TitleChar
 	mso-themeshade:191;
 	letter-spacing:.25pt;
 	mso-font-kerning:14.0pt;}
+span.apple-converted-space
+	{mso-style-name:apple-converted-space;
+	mso-style-unhide:no;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
 .MsoChpDefault
 	{mso-style-type:export-only;
 	mso-default-props:yes;
@@ -1391,7 +1393,7 @@ div.WordSection1
  /* List Definitions */
 @list l0
 	{mso-list-id:-227;
-	mso-list-template-ids:-1632759480;}
+	mso-list-template-ids:-1620524538;}
 @list l0:level1
 	{mso-level-number-format:bullet;
 	mso-level-style-link:"Note Level 1";
@@ -1532,25 +1534,102 @@ table.MsoTableGrid
 
 <div class=WordSection1>
 
-<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
-style='font-size:16.0pt'>Insertion Sort Technical Writing<o:p></o:p></span></b></p>
+<p class=MsoNormal style='background:white'><b><span style='font-size:16.0pt;
+font-family:"Times New Roman";mso-fareast-font-family:"Times New Roman";
+color:black'>Insertion Sort Technical Writing</span></b><span style='font-family:
+"Times New Roman";mso-fareast-font-family:"Times New Roman";color:black'><o:p></o:p></span></p>
 
-<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><o:p>&nbsp;</o:p></b></p>
+<p class=MsoNormal style='background:white'><b><span style='font-family:"Times New Roman";
+mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;</span></b><span
+style='font-family:"Times New Roman";mso-fareast-font-family:"Times New Roman";
+color:black'><o:p></o:p></span></p>
 
-<p class=MsoNormal>Amanda Breneman</p>
+<p class=MsoNormal style='background:white'><span style='font-family:"Times New Roman";
+mso-fareast-font-family:"Times New Roman";color:black'>Amanda Breneman<o:p></o:p></span></p>
 
-<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+<p class=MsoNormal style='background:white'><span style='font-family:"Times New Roman";
+mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
 
-<p class=MsoNormal>Insertion sort creates a sorted list by finding the correct
-place for each element one-by-one &#8211; this example will sort the elements in
-ascending order. The sort starts at the second element of the list and compares
-it to the first element. If the second element is smaller, then it will get
-moved to the first position in the list and the first element will shift right
-one place. Then the third element is compared to the second element and if it
-is smaller, it will get shifted left until it is in the correct place. This
-pattern of evaluating the element and shifting it left until it is in sorted
-order is followed until the last element in the list is placed in its correct
-location.</p>
+<p class=MsoNormal style='background:white'><span style='font-family:"Times New Roman";
+mso-fareast-font-family:"Times New Roman";color:black'>Insertion sort creates a
+sorted list by finding the correct place for each element one at a time &#8211;
+this example will sort the elements in ascending order.&nbsp;The code that
+implements this sort is comprised of two loops: one loop to iterate through
+each&nbsp;element&nbsp;in the list and a second loop to move an element to its
+correct place, if it is not already there.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='background:white'><span style='font-family:"Times New Roman";
+mso-fareast-font-family:"Times New Roman";color:black'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='background:white'><span class=SpellE><span
+class=GramE><span style='font-family:"Times New Roman";mso-fareast-font-family:
+"Times New Roman";color:black'>int</span></span></span><span style='font-family:
+"Times New Roman";mso-fareast-font-family:"Times New Roman";color:black'> temp;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='background:white'><span class=GramE><span
+style='font-family:"Times New Roman";mso-fareast-font-family:"Times New Roman";
+color:black'>for</span></span><span style='font-family:"Times New Roman";
+mso-fareast-font-family:"Times New Roman";color:black'> (<span class=SpellE>int</span>
+<span class=SpellE>i</span> = 1; <span class=SpellE>i</span> &lt; <span
+class=SpellE>input.length</span>; <span class=SpellE>i</span>++) {<o:p></o:p></span></p>
+
+<p class=MsoNormal style='background:white'><span style='font-family:"Times New Roman";
+mso-fareast-font-family:"Times New Roman";color:black'>&nbsp; &nbsp; <span
+style="mso-spacerun:yes">&nbsp;</span><span class=GramE>for</span>(<span
+class=SpellE>int</span> j = <span class=SpellE>i</span> ; j &gt; 0 ;
+j--)&nbsp;{<o:p></o:p></span></p>
+
+<p class=MsoNormal style='background:white'><span style='font-family:"Times New Roman";
+mso-fareast-font-family:"Times New Roman";color:black'>&nbsp; &nbsp; &nbsp; <span
+style="mso-spacerun:yes">&nbsp;</span>&nbsp; <span class=GramE>if</span>(input[j]
+&lt; input[j-1])&nbsp;{<o:p></o:p></span></p>
+
+<p class=MsoNormal style='background:white'><span style='font-family:"Times New Roman";
+mso-fareast-font-family:"Times New Roman";color:black'>&nbsp; &nbsp; &nbsp;
+&nbsp; <span style="mso-spacerun:yes">&nbsp;</span>&nbsp; &nbsp; <span
+class=GramE>temp</span> = input[j];<o:p></o:p></span></p>
+
+<p class=MsoNormal style='background:white'><span style='font-family:"Times New Roman";
+mso-fareast-font-family:"Times New Roman";color:black'>&nbsp; &nbsp; &nbsp;
+&nbsp; <span style="mso-spacerun:yes">&nbsp;</span>&nbsp; &nbsp; <span
+class=GramE>input</span>[j] = input[j-1];<o:p></o:p></span></p>
+
+<p class=MsoNormal style='background:white'><span style='font-family:"Times New Roman";
+mso-fareast-font-family:"Times New Roman";color:black'>&nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp; <span style="mso-spacerun:yes">&nbsp;</span>&nbsp; <span
+class=GramE>input</span>[j-1] = temp;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='background:white'><span style='font-family:"Times New Roman";
+mso-fareast-font-family:"Times New Roman";color:black'>&nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp; }<o:p></o:p></span></p>
+
+<p class=MsoNormal style='background:white'><span style='font-family:"Times New Roman";
+mso-fareast-font-family:"Times New Roman";color:black'>&nbsp; &nbsp; <span
+style="mso-spacerun:yes">&nbsp;</span>}<o:p></o:p></span></p>
+
+<p class=MsoNormal style='background:white'><span style='font-family:"Times New Roman";
+mso-fareast-font-family:"Times New Roman";color:black'>}<o:p></o:p></span></p>
+
+<p class=MsoNormal style='background:white'><span style='font-family:"Times New Roman";
+mso-fareast-font-family:"Times New Roman";color:black'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='background:white'><span style='font-family:"Times New Roman";
+mso-fareast-font-family:"Times New Roman";color:black'>The sort starts with the
+second element of the list and compares it to the first element. If the second
+element is smaller, then it will&nbsp;get moved to the first position in the
+list and the first element will shift right one place.&nbsp;The third element
+is then&nbsp;compared to the second element and if it is smaller, it will get
+shifted left until it is in the correct place.&nbsp;This pattern of evaluating
+an&nbsp;element and shifting it left until the element is in sorted order is
+followed until the last element in the list is placed in its correct location.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='background:white'><span style='font-family:"Times New Roman";
+mso-fareast-font-family:"Times New Roman";color:black'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='background:white'><span style='font-family:"Times New Roman";
+mso-fareast-font-family:"Times New Roman";color:black'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
 
 </div>
 
