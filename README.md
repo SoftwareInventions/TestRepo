@@ -2,6 +2,7 @@
 Temp repo for use in Git demo
 
 -Martin Soemarsono
+(Martin Soemarsono's new line) 
 -ngflanders
 -KirillKudaev
 -Cphillips16
