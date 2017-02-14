@@ -35,7 +35,8 @@ Assignment is not DeMarco analysis, but a written response to the prompt at the 
 
 ### Thursday
  * [Joel Spolsky on Interviewing](https://www.joelonsoftware.com/2006/10/25/the-guerrilla-guide-to-interviewing-version-30)
-
+ * DeMarco, part 5 (Skip part 4 -- preach/content ratio too low)
+ 
 Assignments:
 
 1. Refinement of your writing from Tuesday if you would like to
@@ -47,5 +48,13 @@ Assignments:
 
 Assignments:
 
-1. Complete the fork exercise specified in your issue on TestRepo.
+1. Post a final version of  your Insertion Sort writeup, based on what we've learned in class.  In particular
+	* Use your own material only -- no stealing code from sources, and certainly not prose.
+	* WRT diagrams, I will accept copied diagrams, but I have to say that I don't really like the Wikipedia animation everyone is so fond of because it doesn't clearly show the structure of the sort: sorted vs unsorted areas, the steps taken in one iteration of the outer loop vs the next, etc.
+	* I'd expect more thorough explanations than some I've  seen so far.  Up to a page of explanation is appropriate for this idea and target audience.
+	* Go over the full list of dings, and be sure you've committed none of them.
+	 
 2. It is interesting to see elements of Scrum philosophy showing up in Chap 7 of Andrews and Johnson.  Write up to 200 words on which aspects of Scrum you see reflected in the Chap 7 points, and which Chap 7 points are not part of Scrum but might make good additions to the core Scrum model.  Explain why you'd add each one.
+
+### Thursday
+1. Complete the fork exercise specified in your issue on TestRepo.

@@ -7,6 +7,7 @@ Temp repo for use in Git demo
 -KirillKudaev
 -Cphillips16
 -TourneyMan
+-Keystone365
 
 -bcm27
 
@@ -14,7 +15,8 @@ Temp repo for use in Git demo
 -ZacharyMatthiesen
 
 -LeeTarnow(newLine)
--nicolegerber
+-nicolegerber(new line)
+
 -emmafherman
 -ggoodsell694(new line)
 
@@ -24,3 +26,5 @@ _mchristianson0
 -samuelpmeier
 -ClintStaley
 -EmmaHerman(newLine)
+
+-pnabiswa
