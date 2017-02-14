@@ -14,7 +14,8 @@ Temp repo for use in Git demo
 -ZacharyMatthiesen
 
 -LeeTarnow(newLine)
--nicolegerber
+-nicolegerber(new line)
+
 -emmafherman
 -ggoodsell694(new line)
 
