@@ -19,6 +19,7 @@ Temp repo for use in Git demo
 -ggoodsell694(new line)
 
 -timbassler
+
 _mchristianson0
 -samuelpmeier
 -ClintStaley
