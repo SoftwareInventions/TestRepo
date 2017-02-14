@@ -42,11 +42,33 @@ Assignments:
 2. (150 words max) Compare and contrast DeMarco's (part 3) and Spolsky's views
 on hiring.  On what points would they agree?  Where might they disagree? 
  
- ## Week 4
- ### Tuesday
+## Week 4
+### Tuesday
   * Andrews and Johnson Chap 7 (omit Chap 6)
 
 Assignments:
+1. It is interesting to see elements of Scrum philosophy showing up in Chap 7 of Andrews and Johnson.  Write up to 200 words on which aspects of Scrum you see reflected in the Chap 7 points, and which Chap 7 points are not part of Scrum but might make good additions to the core Scrum model.  Explain why you'd add each one.
 
-1. Complete the fork exercise specified in your issue on TestRepo.
-2. It is interesting to see elements of Scrum philosophy showing up in Chap 7 of Andrews and Johnson.  Write up to 200 words on which aspects of Scrum you see reflected in the Chap 7 points, and which Chap 7 points are not part of Scrum but might make good additions to the core Scrum model.  Explain why you'd add each one.
+### Thursday
+ * Andrews and Johnson Chap 8
+ 
+ Assignments
+0. Complete your fork exercise if not done in class.
+1. (<= 150 words) Pick a specific accountability challenge described in Chap 8 and contrast the authors' solution with how a Scrum model would handle the challenge.
+2. (<= 150 words) Would you like the project management role described in Chap 8?  Why or why not?
+
+## Week 5
+### Tuesday
+  * Andrews and Johnson Chap 12, 13
+  * DeMarco Heading 22 (skip rest of Part V) plus Part VI
+
+Assignments
+  * **Reflection questions tbd**
+  
+### Thursday
+   * Andrews and Johnson Chap 9
+
+Assignments
+  * 
+
+Assignments
