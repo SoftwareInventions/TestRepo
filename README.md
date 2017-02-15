@@ -2,8 +2,9 @@
 Temp repo for use in Git demo
 
 -Martin Soemarsono
+
+-ngflanders (pull request!)
 (Martin Soemarsono's new line) 
--ngflanders
 -KirillKudaev
 -Cphillips16
 -TourneyMan
