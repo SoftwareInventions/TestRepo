@@ -2,22 +2,30 @@
 Temp repo for use in Git demo
 
 -Martin Soemarsono
+(Martin Soemarsono's new line) 
 -ngflanders
 -KirillKudaev
 -Cphillips16
 -TourneyMan
+-Keystone365
+
 -bcm27
 
 -aebreneman
+
 -ZacharyMatthiesen
 
--LeeTarnow(new Line)
--nicolegerber
+-LeeTarnow(newLine)
+-nicolegerber(new line)
+
 -emmafherman
 -ggoodsell694(new line)
 
 -timbassler
+
 _mchristianson0
 -samuelpmeier
 -ClintStaley
 -EmmaHerman(newLine)
+
+-pnabiswa
