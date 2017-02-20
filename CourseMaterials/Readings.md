@@ -69,7 +69,12 @@ Assignments:
   * Repeat the exercise on writing JUnit tests from last R, but this time fill in HerdAnimalTest, which should provide a general test of all HerdAnimal behaviors.  As before, we'll do code review and select best test cases.
 
 ### Thursday
-   * Andrews and Johnson Chap 9
-  
+  * Andrews and Johnson Chap 9
+
 Assignments:
-  * Andrews and Johnson's central point regarding how to choose packaged (aka "third party") software, and what you really gain from it, can be extended by analogy to what you gain as a programmer by using a suite of library classes or functions, which are a sort of "packaged" software.  Think carefully about what they say about packaged software, and extend their ideas to what you would expect to gain from a class or function library, how you would choose between different libraries for a given task, etc.
+  * (up to 150 words) Andrews and Johnson's central point regarding how to choose packaged (aka "third party") software, and what you really gain from it, can be extended by analogy to what you gain as a programmer by using a suite of library classes or functions, which are a sort of "packaged" software.  Think carefully about what they say about packaged software, and extend their ideas to what you would expect to gain from a class or function library, how you would choose between different libraries for a given task, etc.
+  * (Up to 250 words) Propose a one-page WorldFactory for GridWorlds, describing what your generated world will look like, with a brief description of the algorithm you'll use to generate it.  This assignment is in the same spirit as the EC assignment at the end of 240, but with some important distinctions.  First, it's an individual assignment, and must be distinctly different from any group project you did in 240.  Second, it's about demonstrating some interesting code patterns, including loops, conditionals, etc, and writing very clean, well-documented, concise, properly styled, code.  We'll be code-reviewing each submission, and ranking them by creativity of code, clarity and style, and conciseness.  You need a design that's more than just some simple pattern-repetitions.  
+
+## Week 6
+### Tuesday
+  * 
