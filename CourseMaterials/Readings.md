@@ -73,7 +73,15 @@ Assignments:
 
 ### Thursday
    * Andrews and Johnson Chap 9
+   * Rubin, Introduction 
   
 Assignments:
 
   * Andrews and Johnson's central point regarding how to choose packaged (aka "third party") software, and what you really gain from it, can be extended by analogy to what you gain as a programmer by using a suite of library classes or functions, which are a sort of "packaged" software.  Think carefully about what they say about packaged software, and extend their ideas to what you would expect to gain from a class or function library, how you would choose between different libraries for a given task, etc.
+
+## Week 6
+### Tuesday
+ * Rubin, Ch 2,3
+
+
+
