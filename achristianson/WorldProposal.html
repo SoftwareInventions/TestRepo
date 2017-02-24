@@ -1,0 +1,79 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:0in;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+.MsoChpDefault
+	{font-family:"Calibri",sans-serif;}
+.MsoPapDefault
+	{margin-bottom:8.0pt;
+	line-height:107%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-US>
+
+<div class=WordSection1>
+
+<p class=MsoNormal>World Factory Proposal</p>
+
+<p class=MsoNormal>Andrew Christianson</p>
+
+<p class=MsoNormal>2/22/2017</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>I propose a world factory for the <i>CodeWorlds </i>program
+that generates random circles of bricks, trees, and other fixed elements on the
+map. This is to be done using a loop through an array representing the
+different tiles of the map. First all tiles would be initialized with a <i>Grass
+</i>value. Random center tiles would be chosen. Starting at each center tile x
+a random number from a range is assigned as the radius. Using the radius value,
+an algorithm could build a circle by assigning elements in the array in a
+circular pattern from the center.  There would need to be conditions to prevent
+the circle algorithm from attempting to assign values outside of the array and
+to prevent a tile from being chosen as a center for a circle if it has already been
+used as a center. </p>
+
+<p class=MsoNormal>If a center of a circle falls on a square that is not grass,
+it must go to the next available square. If no square left in the array is
+grass, the program must end. All tiles falling within the radius would become a
+part of a circle and be assigned a randomized fixed tile like rock, tree,
+water, etc. This range could be created using a function from a <i>Random </i>object,
+and look like “<i>random.nextInt(10)”. </i>There would need to conditions
+preventing circles from going outside of the array, loops for creating the
+circles, and careful programming for the radius calculations to work correctly.
+</p>
+
+<p class=MsoNormal>                 </p>
+
+</div>
+
+</body>
+
+</html>
