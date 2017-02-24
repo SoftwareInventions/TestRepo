@@ -1,0 +1,61 @@
+<h2 align=left>WorldFactory Proposal</h3>
+
+<h3 align=left>Gavin Goodsell</h5>
+
+<pre >
+	My implementation of the WorldFactory would include essentially be a type of river delta. 
+The algorithm used to accomplish this will create small, but frequent “hills.” Any area, 
+lower than a certain point, would be filled with water. 
+
+	The algorithm would first divide the world grid, assumed to be a square, into smaller 
+squares (hills), with side lengths 1/5th the size of one length of the grid. The side 
+length of the hill is rounded down to the nearest whole number.
+
+	In a loop, square hill arrays are made using the side length of the hill. A random  
+number of the cells of the hill array that are along the bounds of the square will be 
+“removed” as well as any cells of the hill array that are touching a previously removed 
+cell. This will happen in a random pattern. 
+
+	Each hill now has a defined and random shape. The hill patterns will be added one by 
+one to the overall grid, which will place water where the hill array cells have been 
+“removed” and land everywhere else. 
+
+</pre>
+
+<pre>
+
+
+//Psudo Code Example
+public boolean[][] makeHills(int gridSideLength) {
+   int hillSideLenth = Math.Floor(gridSideLength/5);
+   boolean[][] hill = new boolean[hillSideLength][hillSideLength];
+	
+   do {
+	
+      hill = makeHillShape(hillSideLength);
+			
+   } while (placeHill(hill));	
+}
+
+public boolean[][] makeHillShape (int hillSideLength) {
+   boolean[][] hill = new boolean[hillSideLength][hillSideLength];
+   cellsToMakeWater = //Randomly generate how many cells to make water
+	
+   for (; cellsToMakeWater > 0; cellsToMakeWater--) {
+      //remove a cell randomly that touches either the 
+      //    perimeter of the array block or a lowered cell
+   }
+	
+   return hill;
+}
+
+public boolean placeHill(boolean[][] hill) {
+   //if no more space on grid, return false
+	
+   //in a top to bottom, then left to right manner
+   //	add the hill values to overall grid
+   //  if hill goes outside of grid bounds
+   //     return true;
+   //  else, continue to add values
+}
+</pre>
