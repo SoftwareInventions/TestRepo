@@ -1,0 +1,441 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<meta name=Generator content="Microsoft Word 12 (filtered)">
+<title>Java Program Style Rules</title>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;}
+p
+	{margin-right:0in;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;}
+p.msochpdefault, li.msochpdefault, div.msochpdefault
+	{mso-style-name:msochpdefault;
+	margin-right:0in;
+	margin-left:0in;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;}
+.MsoChpDefault
+	{font-size:10.0pt;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+
+<meta name=CREATED content="0;0">
+<meta name=CHANGEDBY content="Clinton Staley">
+<meta name=CHANGED content="20091008;14062200">
+</head>
+
+<body lang=EN-US>
+
+<div class=Section1>
+
+<p class=MsoNormal align=center style='text-align:center'><b><span
+style='font-size:20.0pt'>Java Program Style Rules</span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+
+<p class=MsoNormal align=center style='text-align:center'><b>Copyright
+1998-2003 Clinton Staley</b></p>
+
+<p class=MsoNormal align=center style='text-align:center'><b>All Rights
+Reserved</b></p>
+
+<p class=MsoNormal align=center style='text-align:center'><b>(Last update
+5/6/03)</b></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><span style='font-size:11.0pt'>The following style rules are
+mandatory for all programs submitted. Breaking a style rule will cause your program
+to bounce, and you will have to redo the code according to correct style.
+Because in-class examples were written according to earlier versions of this
+style sheet, some of them may differ from the rules here. Be sure your
+submitted code follows this style sheet when theres a difference.</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b><span style='font-size:13.5pt'>1. Identifier Names</span></b></p>
+
+<p class=MsoNormal><b><span style='font-size:11.0pt'>A.</span></b> <span
+style='font-size:11.0pt'>Use meaningful variable names. X, jj, and bobo don't
+mean as much as timeLeft, biggest, and whereNext. </span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b><span style='font-size:11.0pt'>B</span></b><span
+style='font-size:11.0pt'>. Avoid single letter variable names, except as loop
+counters in for-loops.</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b><span style='font-size:11.0pt'>C</span></b><span
+style='font-size:11.0pt'>. If you decide to abbreviate a commonly used term in
+variable or type names, use exactly the same abbreviation everywhere. (For
+instance, if the term &quot;category&quot; appeared often in variable or type
+names, you might abbreviate it <i>everywhere</i> to &quot;ctg&quot;.)</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b><span style='font-size:11.0pt'>D</span></b><span
+style='font-size:11.0pt'>. In multiple-word names, capitalize the first letter
+of the second and later words. Do not use underscores. Capitalize the first
+letter of class names. Leave the first letter lowercase in methods, locals and
+member data. Begin all nonpublic member data with &quot;m&quot;. Final data
+must be in all-caps, with underscores separating words.</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><span style='font-size:11.0pt'>Classes Functions and locals
+Nonpublic member data Final data</span></p>
+
+<p class=MsoNormal><span style='font-size:11.0pt'>String stringLength mCount
+MAX_SIZE</span></p>
+
+<p class=MsoNormal><span style='font-size:11.0pt'>BigView clearList mData
+BUTTON_COLOR</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b><span style='font-size:11.0pt'>E</span></b><span
+style='font-size:11.0pt'>. Do not use Hungarian notation. </span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b><span style='font-size:13.5pt'>2. Comments</span></b> <b>(for
+assignments requiring commenting – check first)</b></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b><span style='font-size:11.0pt'>A. </span></b><span
+style='font-size:11.0pt'>Write comments for each method that is not baldly
+obvious (such as a simple accessor), including a description of what the
+function does, and what each parameter is for. If the function makes any
+special assumptions about the contents of the parameters, list these. Write
+comments for each class in the program, including descriptions of each member
+datum. Don't comment the obvious; concentrate on explaining the hard parts. </span>  <span
+style='font-size:11.0pt'>Use JavaDoc notation for header comments.</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b><span style='font-size:11.0pt'>B. </span></b><span
+style='font-size:11.0pt'>Comments must be <b>clear</b>. A set of words in
+comment markers is not automatically a comment. Comments must be grammatical
+and correctly spelled.</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b><span style='font-size:11.0pt'>C. </span></b><span
+style='font-size:11.0pt'>Put comments that exceed one or two lines in function headers,
+not in the code itself. You may mark a line with a number thus: // 1 , and
+discuss it in the function header. </span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b><span style='font-size:13.5pt'>3. Finals</span></b></p>
+
+<p class=MsoNormal><span style='font-size:11.0pt'>Use static final data in your
+code instead of direct numbers. There must be no actual numbers other than 0, 1
+or 2 in your code, unless an exception has been granted by your instructor.</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b><span style='font-size:13.5pt'>4. Class Design</span></b></p>
+
+<p class=MsoNormal><b><span style='font-size:11.0pt'>A.</span></b> <span
+style='font-size:11.0pt'>Avoid parameter lists of more than 5. Group data into
+structs or classes instead. For instance:</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><span style='font-size:11.0pt'>void PrintStats(int total,
+int count, int mean, int median, float stddev)</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><span style='font-size:11.0pt'>These parameters are related;
+they comprise a set of statistics. Instead of passing 5 items, group them into
+a single class and pass just one object.</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b><span style='font-size:11.0pt'>B.</span></b> <span
+style='font-size:11.0pt'>Never use public member data in an outer class. If you
+have a member that you would like to make freely modifiable, make the data
+member private or protected, and create two public member functions to access
+and modify it, using the same name as the data member, but with get or set
+prepended:</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><span style='font-family:"Courier New"'>class Type {</span></p>
+
+<p class=MsoNormal>&nbsp;&nbsp; <span style='font-family:"Courier New"'>public
+int getData(void) {return mData;} // Get data value</span></p>
+
+<p class=MsoNormal>&nbsp;&nbsp; <span style='font-family:"Courier New"'>public
+void setData(int val) {mData = val;} // Modify data value.</span></p>
+
+<p class=MsoNormal>&nbsp;&nbsp; <span style='font-family:"Courier New"'>private
+int mData;</span></p>
+
+<p class=MsoNormal><span style='font-family:"Courier New"'>}</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><span style='font-size:11.0pt'>This arrangement lets you
+attach more complex code to the accessing and modifying of data in the future.</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b><span style='font-size:11.0pt'>C.</span></b> <span
+style='font-size:11.0pt'>In small inner classes -- those that would be
+represented with a &quot;struct&quot; in C++ -- you may make all member data
+public. Such classes should have at most a constructor and perhaps a utility
+method like clone. Their member data need not begin with &quot;m&quot;. Classes
+more sophisticated than this must have no public member data.</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b><span style='font-size:11.0pt'>D. </span></b><span
+style='font-size:11.0pt'>All member data and methods must have access modifiers
+(protected, private, or public). Default access (package access) is forbidden
+except when specifically allowed in special cases.</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b><span style='font-size:11.0pt'>E</span></b><span
+style='font-size:11.0pt'>. Functions must be at most 50 lines long, not
+counting blank lines, asserts, comments, or lines with only a single brace on
+them. Don't cram code together to satisfy this limit. Break up your functions
+instead.</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b><span style='font-size:11.0pt'>F. </span></b><span
+style='font-size:11.0pt'>Place inner classes at the top of the class
+declaration, followed by member data, and finally by methods.</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b><span style='font-size:11.0pt'>G. </span></b><span
+style='font-size:11.0pt'>Place all local variable declarations at the top of
+the function, with a single blank line separating the locals from the code that
+follows.</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b><span style='font-size:16.0pt'>5. Indentation and Blank
+Lines</span></b></p>
+
+<p class=MsoNormal><b><span style='font-size:11.0pt'>A.</span></b> <span
+style='font-size:11.0pt'>Use 3 space indentation. </span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b><span style='font-size:11.0pt'>B.</span></b> <span
+style='font-size:11.0pt'>Indent only one level for each nested if, while, or
+switch:</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><span style='font-family:"Courier New"'>while (...) {</span></p>
+
+<p class=MsoNormal><span style='font-family:"Courier New"'>&nbsp;&nbsp;&nbsp;statement;</span></p>
+
+<p class=MsoNormal><span style='font-family:"Courier New"'>&nbsp;&nbsp;&nbsp;if(...) {</span></p>
+
+<p class=MsoNormal><span style='font-family:"Courier New"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;statement;</span></p>
+
+<p class=MsoNormal><span style='font-family:"Courier New"'>&nbsp;&nbsp;&nbsp;}</span></p>
+
+<p class=MsoNormal><span style='font-family:"Courier New"'>}</span> </p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b><span style='font-size:11.0pt'>C</span></b><span
+style='font-size:11.0pt'>. Never let a line exceed 80 columns. If a line must
+be broken into two, indent the second part one space past the first column of
+the first part:  Further continuation lines, if needed, stay at that same
+1-space indent</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><span style='font-family:"Courier New"'>Big long line....</span></p>
+
+<p class=MsoNormal><span style='font-family:"Courier New"'> with continuation
+line below</span></p>
+
+<p class=MsoNormal><span style='font-family:"Courier New"'> and further
+continuation</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b><span style='font-size:11.0pt'>D</span></b><span
+style='font-size:11.0pt'>. Indent both the then and else blocks of an
+if-statement, even if they are only one line long. Don't write: if (test)
+statement;</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b><span style='font-size:11.0pt'>E.</span></b> <span
+style='font-size:11.0pt'>Use blank lines to break up blocks of code. Your code
+should fall into groups of about 5-8 lines on average, separated by a blank
+line or a line with only a brace, and possibly started with a one or two line
+comment. Always put a blank line after the local declarations in a function.
+Don’t put more than one blank line in a row. A single blank line at a time is
+enough to break up the flow of code properly.</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b><span style='font-size:11.0pt'>F.</span></b> <span
+style='font-size:11.0pt'>Always place the opening brace at the end of the if,
+while, class, etc. line that it applies to, and place the closing brace on a
+line by itself, in the same column as the beginning of the opening line.</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b><span style='font-size:11.0pt'>G.</span></b> <span
+style='font-size:11.0pt'>Indent the code inside of a class 3 spaces relative to
+the start of the class header line.</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b><span style='font-size:11.0pt'>H.</span></b> <span
+style='font-size:11.0pt'>Functions must either fit entirely on the line to the
+right of the function header, or must be broken up over multiple lines.</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><span style='font-family:"Courier New"'>public int
+total(void) {Code for total}</span></p>
+
+<p class=MsoNormal><span style='font-family:"Courier New"'>OR</span></p>
+
+<p class=MsoNormal><span style='font-family:"Courier New"'>public int
+total(void) {</span></p>
+
+<p class=MsoNormal>&nbsp;&nbsp; <span style='font-family:"Courier New"'>Code
+for total;</span></p>
+
+<p class=MsoNormal>&nbsp;&nbsp; <span style='font-family:"Courier New"'>Code
+for total;</span></p>
+
+<p class=MsoNormal><span style='font-family:"Courier New"'>}</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b><span style='font-size:11.0pt'>I.</span></b> <span
+style='font-size:11.0pt'>Branches of an else-if sequence must be indented at
+the same level, even though technically each else-if should be indented one
+level deeper than the preceding one.</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b><span style='font-size:11.0pt'>J. </span></b><span
+style='font-size:11.0pt'>Do not put more than one statement on a line.</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b><span style='font-size:13.5pt'>6. Spacing</span></b></p>
+
+<p class=MsoNormal><b><span style='font-size:11.0pt'>A</span></b><span
+style='font-size:11.0pt'>. Use spaces to clarify your program and to break up
+long expressions, but don't overdo it. Put spaces after each comma, and around
+each keyword (note that &quot;if&quot;, &quot;while&quot; and &quot;for&quot;
+are keywords). Put a space after each semicolon in a for header and before any opening brace '{'. Never put a
+space <i>before</i> a comma or semicolon.</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b><span style='font-size:11.0pt'>B</span></b><span
+style='font-size:11.0pt'>. Put spaces around operators, except in very large
+expressions where you may avoid them around the highest-priority operators.
+Dont have more than three variables or operators in a row without a blank
+space.</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><span style='font-family:"Courier New"'>Good: epsilon =
+2*beta + gamma - delta*pi;</span></p>
+
+<p class=MsoNormal><span style='font-family:"Courier New"'>Bad:
+epsilon=2*gamma-delta*pi;</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b><span style='font-size:11.0pt'>C. </span></b><i><span
+style='font-size:11.0pt'>Don't</span></i> <span style='font-size:11.0pt'>put
+space after an opening paren, or before a closing one. Do not put space between
+a function name and the opening paren for the parameter list.</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b><span style='font-size:13.5pt'>7. Code Elegance</span></b></p>
+
+<p class=MsoNormal><b><span style='font-size:11.0pt'>A.</span></b> <span
+style='font-size:11.0pt'>Do not ever use the clauses &quot;== true&quot; or
+&quot;== false&quot; in code. Use boolean variables as direct tests, as in
+&quot;if (mEmpty)&quot;, not in equality checks like &quot;if (mEmpty ==
+true)&quot;.</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b><span style='font-size:11.0pt'>B. </span></b><span
+style='font-size:11.0pt'>Do not write an if-else that can be replaced with a
+simple boolean expression. For instance:</span></p>
+
+<p class=MsoNormal><span style='font-size:9.0pt;font-family:"Courier New"'>if
+(val1 &lt; va2 &amp;&amp; mark == 0) </span></p>
+
+<p class=MsoNormal>&nbsp;&nbsp; <span style='font-size:9.0pt;font-family:"Courier New"'>oddTest
+=
+true;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+VS:&nbsp;&nbsp;&nbsp; oddTest = val1 &lt; val2 &amp;&amp; mark == 0;</span></p>
+
+<p class=MsoNormal><span style='font-size:9.0pt;font-family:"Courier New"'>else</span></p>
+
+<p class=MsoNormal>&nbsp;&nbsp; <span style='font-size:9.0pt;font-family:"Courier New"'>oddTest
+= false;</span></p>
+
+<p class=MsoNormal>&nbsp;&nbsp; &nbsp;</p>
+
+<p class=MsoNormal><b><span style='font-size:11.0pt'>C. </span></b><span
+style='font-size:11.0pt'>Don't explicitly initialize member data to 0 or null;
+such initialization is guaranteed by the language.</span></p>
+
+<p class=MsoNormal><span style='font-size:11.0pt'>&nbsp;</span></p>
+
+<p class=MsoNormal><b><span style='font-size:11.0pt'>D. </span></b><span
+style='font-size:11.0pt'>Use Java Collections.  Don’t rewrite classes or
+utilities (like sort) that are in the libraries, unless required to as part of
+an assignment.</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+</div>
+
+</body>
+
+</html>
