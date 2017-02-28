@@ -1,0 +1,9 @@
+Peter Nabiswa
+Code Worlds ideas:
+•	Number of trees and grass could be significantly higher near water bodies
+•	There would also be more animals around any trees or water bodies to mimic what would happen in real life.
+•	The world will also have animals that could be on trees – sloth.
+•	I will also attempt to implement a height map in my world using Carpenters fractal in order to create a river flowing downhill.
+•	I will also try to avoid having an animal on a cliff or say a cow in water.
+•	I will also attempt to have my river end up in a large water body to mimic a lake.
+
