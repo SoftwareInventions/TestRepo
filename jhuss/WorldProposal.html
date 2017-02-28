@@ -1,11 +1,12 @@
 <html>
-	<center><h2>My World Proposal</h2>
+	<h2>My World Proposal</h2>
 	<br>For my GridWorld, I plan on making a river that divides the world into two biomes.
 	<br>The river will be randomly generated so that it starts on the left side of the world,
 	<br>randomly winding up and down until it reaches the right side of the world.
 	<br>The two resulting regions will individually be assigned one of two biomes: forest or rock field.
-	<br>Forests will be originally generated with trees on 90% of the grid spaces.
-	<br>However, due to lack of sunlight, any tree that is completely surrounded by other trees will die off and
+	<br>Forests will be originally generated with trees on 75% of the grid spaces.
+	<br>However, due to lack of sunlight, any tree that is surrounded
+	<br>by other trees on its four adjacent sides will die off and
 	<br>be removed from the world before being displayed.  Finally, each rock field will generate stones in a
 	<br>random mounding fashion.  The generator will go across the biome from left to right, deciding for
 	<br>each grid location, whether or not a stone should be placed.  Two factors help determine the chance of a
@@ -13,5 +14,4 @@
 	<br>stones that have been placed.  If more stones have already been placed around the location in question,
 	<br>there will be a higher probably that another stone will be placed.
 	<br>However, as more stones are placed across the entire biome, the probability that another stone is placed is lowered.
-	</center>
 </html>
