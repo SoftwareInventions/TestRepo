@@ -91,5 +91,23 @@ Assignments:
 * Implement the WorldFactory you proposed on R, and volunteer for code review of your submit, for 10% EC if done by this time.  Implement this as a WorldFactory subclass in a package edu.principia.<yourlogin> in the CodeWorlds source tree, committing it *only* in a branch <yourlogin> of the repository.
 
 ### Thursday
+   * Read https://www.linkedin.com/pulse/developers-dead-simon-williams  
 
-* Implement your proposed WorldFactory.  We'll do code reviews by random selection.
+Assignments:
+
+* Implement your proposed WorldFactory.
+* (Up to 150 words) What area(s) of your own background and knowledge would you strengthen to become a "T-shaped" developer?  What could Prin and CSCI do better to make you one?
+
+## Week 7
+### Tuesday
+  * Read https://en.wikipedia.org/wiki/DevOps
+
+Assignments:
+
+ * Ongoing reviews and improvements on WorldFactory
+ * (150 words) The DevOps article is part of what I hope to make a series of readings on different roles within software engineering. Write a bit about whether you think you'd enjoy such a role, and why you would or would not.
+
+
+
+
+
