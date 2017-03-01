@@ -6,6 +6,25 @@ This document explains the code review process.
 ## Criteria
 We'll evaluate code on by these criteria:
 
+#### Clarity
+This includes correct style, good variable names, good code organization for readability, etc.  See the provided style sheet for style rules.
+
+#### Documentation
+Appropriate comments, not too many nor too few.  Don't comment every single line, nor things that are reasonably straightforward.  If a reasonable reader could  understand the code without your comment, then the comment should be dropped.
+
+Are comments clear, properly spelled, and grammatical?  Prefer imperative tense in comments, e.g. "Sort the array in increasing order" vs "The array is sorted in increasing order" or "Here, the code sorts the array in increasing order"
+
+You may make reference to external resources, e.g. to explain an algorithm, but your comments must suffice to make your code clear, and to connect it with any externally referenced algorithm, without any other information or explanation.
+
+#### Creativity and Algorithm
+How creative, interesting, and original is the algorithm and world generated?
+
+#### Accuracy
+Were there bugs found in the review process?
+
+#### Conciseness
+Is the code tightly and cleanly written?  Are there significantly briefer and clearer ways it could have been written?
+
 ## Submission and Grading Process
 When you're ready to have your code reviewed, add your name to the ReviewRequested file, and make your code available under a branch with your login name in the repo.
 
