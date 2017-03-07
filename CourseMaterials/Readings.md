@@ -107,7 +107,23 @@ Assignments:
  * Ongoing reviews and improvements on WorldFactory
  * (150 words) The DevOps article is part of what I hope to make a series of readings on different roles within software engineering. Write a bit about whether you think you'd enjoy such a role, and why you would or would not.
 
+### Thursday
+   * Read up on the distinction between TPM and PM at Amazon.  
+
+https://www.quora.com/What-is-the-difference-between-Technical-Program-manager-and-Product-Manager-at-Amazon
+https://www.quora.com/What-is-the-difference-between-Program-Manager-and-Technical-Program-Manager-at-Amazon
+(Further web hunting on these two types of roles at other firms, on your initiative.  Quora's a good resource for "inside perspectives" btw.)
+
+Assignments:
+   * Code reviews, per usual, but I will break the class into two segments, alphabetically by last name, A-H, K-Z.  We'll try for *four* reviews on R, hoping to move a bit quicker.  I'll assign the first two to A-H, and the second two to K-Z, with the alternate group invited to comment but not required to have deeply pre-read the code.  Expect a quiz on the code for your group.
+   * (200 words) The PM/TPM positions are Amazon-specific, but I chose them because I have experience with the distinctions between them, and more importantly because they nicely represent an important spectrum within the broader area of software project management.  Be sure you understand the two roles as described by Amazon.  Then comment on four things:
+
+ 1. How this distinction plays out in other software firms -- what types of job positions do MS, Google, IBM, Capital One, etc have that reflect the same spectrum?  You don't have to hunt up every possible company, but get an extra example or two from outside Amazon.
+ 2. Is there a difference in respect/pay between PM and TPM and does this difference vary per organization?
+ 3. How the PM/TPM distinction relates to Scrum roles.
+ 4. Which role you would prefer if you had to choose between them, and why.
 
 
-
-
+## Week 8
+### Tuesday
+   * Team meetings
