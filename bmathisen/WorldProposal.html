@@ -1,0 +1,44 @@
+<html>
+<body>
+
+<center>
+<h1>Bjorn Mathisen </h1>
+<h3>3/1/2017 - CSCI 310 - Principia College </h3>
+<h><u>Codeworlds Algorithm Proposal</u></h> 
+<p>Having changed my mind about which algorithm I would be using for this project three times. I have decided to list the first two</P>
+<p>concepts in a brief description and go further in-depth about my final chosen method of execution. </P>
+<h1>Idea 1:</h1>
+<p>My original concept was centered around the idea of building my world in pre-programmed chunks and generating random segments</p>
+<p>to go above these blocks. For example, I planned on dividing my world vertically into 4 segments each with a randomly chosen</P>
+<p>letter designating them. ie 'A','B','D', etc. Above these designation letters I would have 'pastures' holding a random animal</P>
+<p>with random placement inside the pasture being based on its neighbor’s location. I scrapped this idea once I learned of the character limit. </P>
+
+<img src="Images/WorldProposal1.png" />
+<br>
+<h1>Idea 2:</h1>
+<p>My second idea was centered around the Mandelbrot set. An algorithm centered around the comparison of complex numbers that when plotted</p>
+<p>in 2 dimensional space would produce a infinity recursive pattern. I scrapped this concept due to limited understanding of how to employ it </p>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Mandelbrot_sequence_new.gif" />
+
+<br>
+<h1>Final concept</h1>
+<p>Originally, midpoint between concept 1 and concept 2 we were introduced to Fractal sets and how to use them in terrain generation. </p>
+<p>I found this concept quite interesting during class and I decided that if I did not use it for this assignment that I would attempt</p>
+<p>it later during my own time. However, after doing some research into the subject I found the concept quite doable and somewhat easy to</p>
+<p>understand. Using the following pseudo code I was able to write my own algorithm following the diamond-square technique. </p>
+
+<br><br> 
+	<p>While the length of the side of the squares is greater than zero</p>
+	<p>{<br>Pass through the array and perform the diamond step for each square present. </p>
+	<p>Pass through the array and perform the square step for each diamond present. </p>
+	<p>Reduce the random number range. <br>}</p>
+<p>After generating a 2D array with differences ranging from 4 -|+ the original seed value, I was able to generate a height map</p>
+<p>and using this height map place my objects within the world. Creating landmasses resembling mountains, or hills depending on the placement of the objects</p>
+
+<img src="Images/WorldProposal2.png" />
+
+<br><br><br><br>
+</center>
+</body>
+</html>
