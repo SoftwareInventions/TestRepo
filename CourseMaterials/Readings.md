@@ -126,4 +126,5 @@ Assignments:
 
 ## Week 8
 ### Tuesday
+   * Rubin 4-6
    * Team meetings
