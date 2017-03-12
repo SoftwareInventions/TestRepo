@@ -123,7 +123,28 @@ Assignments:
  3. How the PM/TPM distinction relates to Scrum roles.
  4. Which role you would prefer if you had to choose between them, and why.
 
-
 ## Week 8
 ### Tuesday
+   * Rubin 4-6
    * Team meetings
+
+Assignments:
+   * Code Reviews
+   * (200 words) It can be said that the standard waterfall specification process has the same problems as buying a 5-gallon jar of mayonnaise.  Describe at least two problems those two things share, based on Scrum philosophy from the Rubin reading. 
+   * (100 words each) Write one small (be sure INVEST standards are met) and one epic user story.  You may use any imaginary project you like, but make it distinct from book examples.
+
+### Thursday
+Midterm Exam.  I anticipate a closed-book exam with the following elements:
+
+ * Reflection questions on the reading, along the same lines as those we've been doing all term
+ * Vocabulary
+ * Git commands
+ * A technical writing question, judged against the criteria we discussed in class.
+
+## Week 10
+### Tuesday
+ * Midterm handback
+ * Team meetings
+
+### Thursday
+
