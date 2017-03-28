@@ -179,7 +179,7 @@ Midterm Exam.  I anticipate a closed-book exam with the following elements:
 
 ## Week 14
 ## Tuesday
- * Final exam
+ * Individual writing exercise in lieu of final
 
 ## Week 15
 No items due, though Clint will be available for office hours M/T 5/8-5/9 if needed.
