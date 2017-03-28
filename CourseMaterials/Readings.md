@@ -143,8 +143,43 @@ Midterm Exam.  I anticipate a closed-book exam with the following elements:
 
 ## Week 10
 ### Tuesday
- * Midterm handback
+ * Reflections from 9 still potentially collectible
+ * Code Review
  * Team meetings
 
 ### Thursday
+* Midterm handback
+* Code Reviews
+* Look up online sites describing the roles SQA engineer and SDET.
+* (200 words) What are typical SDET or SQA engineer duties?  How do they differ between firms?  Does the typical such role involve coding, and of what sort if so?  What are typical interview questions like?  Would you be interested in such a role?
 
+## Week 11
+### Tuesday
+ * Ken Johnson lecture
+
+### Thursday
+ * Ken Johnson lecture
+
+## Week 12
+### Tuesday
+ * Clint/team meetings, online
+
+### Thursday
+ * Meetings with teams, in-person
+
+## Week 13
+### Tuesday
+ * Clint/team meetings, online
+ 
+### Thursday
+ * Clint/team meetings, in-person
+ 
+### Saturday
+ * Four lectures, devoted to code reviews and/or team meetings
+
+## Week 14
+## Tuesday
+ * Final exam
+
+## Week 15
+No items due, though Clint will be available for office hours M/T 5/8-5/9 if needed.
