@@ -24,7 +24,7 @@ Deliverable for this phase is a brief (e.g. 400 words) description of what you'r
 Express your "spec" for the project in the form of a prioritized list of 15-20 PBIs.  This must include 5-10 ready-for-sprint stories, with estimates using ideal days.  It must also include less-refined PBIs, with "shirt size" estimates".
 
 #### Plan an initial sprint
-Select features for an initial sprint, planning for TDD-style development (see below).  Budget for 16 ideal days of effort, including test development and implementation.  (This is 128 hrs, 43 hrs/member -- just under 5 weeks nominal effort for a 3 unit class.)
+Select features for an initial sprint, planning for TDD-style development (see below).  Budget for 10 ideal days of effort, including test development and implementation.  (This is 80 hrs, 27 hrs/member -- just under 3 weeks nominal effort for a 3 unit class.)
 
 #### Set up a repo
 Create a Github-based project repo, and make all team members and SoftwareInventions contributors.  

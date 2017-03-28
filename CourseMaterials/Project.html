@@ -1,347 +1,125 @@
-<!DOCTYPE html>
 <html>
-<head>
-<title>Project</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<style type="text/css">
-/* Markdown.css */
-/* Authors: Kevin Burke: http://kev.inburke.com/, modified by Evan Wondrasek  */
-/* https://bitbucket.org/kevinburke/markdowncss */
-
-body{
-    margin: 0 auto;
-    font-family: Georgia, Palatino, serif;
-    color: #444444;
-    line-height: 1;
-    max-width: 960px;
-    padding: 5px;
-}
-
-answer{font-size:9px}
-
-red{color: red;}
-
-sub, sup {
-  /* Specified in % so that the sup/sup is the
-     right size relative to the surrounding text */
-  font-size: 70%;
-
-  /* Zero out the line-height so that it doesn't
-     interfere with the positioning that follows */
-  line-height: 0;
-
-  /* Where the magic happens: makes all browsers position
-     the sup/sup properly, relative to the surrounding text */
-  position: relative;
-
-  /* Note that if you're using Eric Meyer's reset.css, this
-     is already set and you can remove this rule */
-  vertical-align: baseline;
-}
-
-sup {
-  /* Move the superscripted text up */
-  top: -0.5em;
-}
-
-sub {
-  /* Move the subscripted text down, but only
-     half as far down as the superscript moved up */
-  bottom: -0.4em;
-}
-
-h1, h2, h3, h4 {
-    color: #111111;
-    font-weight: 400;
-}
-h1, h2, h3, h4, h5, p {
-    margin-bottom: 16px;
-    padding: 0;
-}
-h1 {
-    font-size: 28px;
-}
-h2 {
-    font-size: 22px;
-    margin: 20px 0 6px;
-}
-h3 {
-    font-size: 21px;
-}
-h4 {
-    font-size: 18px;
-}
-h5 {
-    font-size: 16px;
-}
-a {
-    color: #0099ff;
-    margin: 0;
-    padding: 0;
-    vertical-align: baseline;
-}
-a:hover {
-    text-decoration: none;
-    color: #ff6600;
-}
-a:visited {
-    color: purple;
-}
-ul, ol {
-    padding: 0;
-    margin: 0;
-}
-li {
-    line-height: 24px;
-    margin-left: 44px;
-}
-li ul, li ul {
-    margin-left: 24px;
-}
-p, ul, ol {
-    font-size: 14px;
-    line-height: 20px;
-    max-width: 540px;
-}
-pre {
-    padding: 0px 24px;
-    max-width: 800px;
-    white-space: pre-wrap;
-}
-code {
-    font-family: Consolas, Monaco, Andale Mono, monospace;
-    line-height: 1.5;
-    font-size: 13px;
-}
-aside {
-    display: block;
-    float: right;
-    width: 390px;
-}
-blockquote {
-    border-left:.5em solid #eee;
-    padding: 0 2em;
-    margin-left:0;
-    max-width: 476px;
-}
-blockquote  cite {
-    font-size:14px;
-    line-height:20px;
-    color:#bfbfbf;
-}
-blockquote cite:before {
-    content: '\2014 \00A0';
-}
-
-blockquote p {  
-    color: #666;
-    max-width: 460px;
-}
-hr {
-    width: 540px;
-    text-align: left;
-    margin: 0 auto 0 0;
-    color: #999;
-}
-
-button,
-input,
-select,
-textarea {
-  font-size: 100%;
-  margin: 0;
-  vertical-align: baseline;
-  *vertical-align: middle;
-}
-button, input {
-  line-height: normal;
-  *overflow: visible;
-}
-button::-moz-focus-inner, input::-moz-focus-inner {
-  border: 0;
-  padding: 0;
-}
-button,
-input[type="button"],
-input[type="reset"],
-input[type="submit"] {
-  cursor: pointer;
-  -webkit-appearance: button;
-}
-input[type=checkbox], input[type=radio] {
-  cursor: pointer;
-}
-/* override default chrome & firefox settings */
-input:not([type="image"]), textarea {
-  -webkit-box-sizing: content-box;
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
-}
-
-input[type="search"] {
-  -webkit-appearance: textfield;
-  -webkit-box-sizing: content-box;
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
-}
-input[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
-}
-label,
-input,
-select,
-textarea {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 13px;
-  font-weight: normal;
-  line-height: normal;
-  margin-bottom: 18px;
-}
-input[type=checkbox], input[type=radio] {
-  cursor: pointer;
-  margin-bottom: 0;
-}
-input[type=text],
-input[type=password],
-textarea,
-select {
-  display: inline-block;
-  width: 210px;
-  padding: 4px;
-  font-size: 13px;
-  font-weight: normal;
-  line-height: 18px;
-  height: 18px;
-  color: #808080;
-  border: 1px solid #ccc;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-}
-select, input[type=file] {
-  height: 27px;
-  line-height: 27px;
-}
-textarea {
-  height: auto;
-}
-
-/* grey out placeholders */
-:-moz-placeholder {
-  color: #bfbfbf;
-}
-::-webkit-input-placeholder {
-  color: #bfbfbf;
-}
-
-input[type=text],
-input[type=password],
-select,
-textarea {
-  -webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
-  -moz-transition: border linear 0.2s, box-shadow linear 0.2s;
-  transition: border linear 0.2s, box-shadow linear 0.2s;
-  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
-  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
-}
-input[type=text]:focus, input[type=password]:focus, textarea:focus {
-  outline: none;
-  border-color: rgba(82, 168, 236, 0.8);
-  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 8px rgba(82, 168, 236, 0.6);
-  -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 8px rgba(82, 168, 236, 0.6);
-  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 8px rgba(82, 168, 236, 0.6);
-}
-
-/* buttons */
-button {
-  display: inline-block;
-  padding: 4px 14px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 13px;
-  line-height: 18px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
-  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
-  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
-  background-color: #0064cd;
-  background-repeat: repeat-x;
-  background-image: -khtml-gradient(linear, left top, left bottom, from(#049cdb), to(#0064cd));
-  background-image: -moz-linear-gradient(top, #049cdb, #0064cd);
-  background-image: -ms-linear-gradient(top, #049cdb, #0064cd);
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #049cdb), color-stop(100%, #0064cd));
-  background-image: -webkit-linear-gradient(top, #049cdb, #0064cd);
-  background-image: -o-linear-gradient(top, #049cdb, #0064cd);
-  background-image: linear-gradient(top, #049cdb, #0064cd);
-  color: #fff;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  border: 1px solid #004b9a;
-  border-bottom-color: #003f81;
-  -webkit-transition: 0.1s linear all;
-  -moz-transition: 0.1s linear all;
-  transition: 0.1s linear all;
-  border-color: #0064cd #0064cd #003f81;
-  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-}
-button:hover {
-  color: #fff;
-  background-position: 0 -15px;
-  text-decoration: none;
-}
-button:active {
-  -webkit-box-shadow: inset 0 3px 7px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
-  -moz-box-shadow: inset 0 3px 7px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
-  box-shadow: inset 0 3px 7px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
-}
-button::-moz-focus-inner {
-  padding: 0;
-  border: 0;
-}
-</style>
-</head>
-<body>
-<h1>Software Engineering Project</h1>
-<h2>Overview</h2>
-<p>In this project, you'll work in teams of 3 to find a customer and a product, and conduct an initial Scrum sprint.</p>
-<h2>Tasks</h2>
-<h3>Pick a Team (Due 3/27)</h3>
-<p>You must choose from among those who have already finished the individual WorldFactory project, and your team must have my OK.  I will choose teams by Monday if I do not hear from you with any preferences.</p>
-<h3>Find a Customer (Due 3/30)</h3>
-<p>This stage is similar to what you did for database, and indeed may even involve the same customer if you like.  You're looking for a project that will produce a reasonable backlog and a manageable initial sprint, meaning something you can demonstrate as a working &quot;version 0.1&quot; including automated tests, code reviews, and very basic functionality.</p>
-<h4>About UI</h4>
-<p>I would prefer a project that is a web or mobile application, but I recognize not all teams will have the expertise for this.  A desktop GUI interface, e.g. JavaFX, WinForms is a close second, and a purely text UI is acceptable if necessary.</p>
-<h4>Deliverable</h4>
-<p>Deliverable for this phase is a brief (e.g. 400 words) description of what you're planning to take on, and an explanation of how it meets the stated criteria.  Get my approval for this; no need to hand anything in formally.</p>
-<h3>Backlog and First Sprint Plan (Due 4/4)</h3>
-<h4>Create a backlog</h4>
-<p>Express your &quot;spec&quot; for the project in the form of a prioritized list of 15-20 PBIs.  This must include 5-10 ready-for-sprint stories, with estimates using ideal days.  It must also include less-refined PBIs, with &quot;shirt size&quot; estimates&quot;.</p>
-<h4>Plan an initial sprint</h4>
-<p>Select features for an initial sprint, planning for TDD-style development (see below).  Budget for 16 ideal days of effort, including test development and implementation.  (This is 128 hrs, 43 hrs/member -- just under 5 weeks nominal effort for a 3 unit class.)</p>
-<h4>Set up a repo</h4>
-<p>Create a Github-based project repo, and make all team members and SoftwareInventions contributors.  </p>
-<p>Register each of your PBIs as Issues in the repo, with number of ideal days or &quot;shirt size&quot; estimates embedded in the title, e.g. Create Registration System (medium).  Since Github lacks a general prioritization system, fake this by setting up five labels P1-&gt;P5 for priority.</p>
-<p>Establish a &quot;Sprint 1&quot; milestone and put the agreed upon PBIs under that milestone.  Get my OK on the milestone.</p>
-<h4>Deliverable</h4>
-<p>The GitHub issues and first milestone are your deliverable for this step.  They require my formal approval, however, and the deliverable is not &quot;done&quot; until I OK what you have.</p>
-<h3>Build tests (Due 4/11)</h3>
-<p>Write a suite of automated tests for your initial sprint <em>before you write any code for the features themselves</em>.  (You may, and will probably have to, write interface descriptions, but not implementations.) </p>
-<h4>Individual branches</h4>
-<p>During test building and implementation, each team member must maintain a separate branch, and periodically merge his/her branch into master.  I will want to review each individual's work via their branch commit history.  Do not do work on anyone's branch but your own.</p>
-<p>There must be some automated tests, but where these are not feasible (e.g. to test UI) a written test script will suffice.</p>
-<h4>About language and framework choice</h4>
-<p>You are already familiar with JUnit, and using Java and JUnit is an acceptable default choice.</p>
-<p>If you want to be more adventurous, JS, Python, C#, or C++ are other good languages to consider.  There are JUnit-like libraries for these.  Indeed, many of them are highly similar to JUnit in design.  Interestingly this is not because they are imitating JUnit but because JUnit, and the others, imitate a sort of ur-framework called sUnit, for Smalltalk.  Googling 'xUnit' will get you lots of references, including the predictable comprehensive and completely undiscriminating Wikipedia list of all such tools, including the defunct and unused ones.  See me for advice on how to pick one if you go this route.</p>
-<h4>Deliverable</h4>
-<p>A test branch under your repo, containing the tests, and a src branch with any interface implementations neede to make the tests buildable (though of course at this stage they'll all be &quot;red&quot;.</p>
-<h3>Implement Your Sprint (Due 4/18)</h3>
-<p>Build code that satisfies your tests and meets the PBIs for your sprint.  In particular, ensure that all your tests, automated or written, are met for the sprint.</p>
-<h4>Deliverable</h4>
-<p>Completed code for the sprint, under a src directory in your repo, meeting standard style requirements.  You must demo this to my satisfaction to have met the milestone.</p>
-<h3>Code Reviews (4/20)</h3>
-<p>Be prepared to do code reviews on three other teams, and to be reviewed by three, during our Saturday session.</p>
-
-</body>
+ <body>
+  <h1 id="software-engineering-project">
+   Software Engineering Project
+  </h1>
+  <h2 id="overview">
+   Overview
+  </h2>
+  <p>
+   In this project, you’ll work in teams of 3 to find a customer and a product, and conduct an initial Scrum sprint.
+  </p>
+  <h2 id="tasks">
+   Tasks
+  </h2>
+  <h3 id="pick-a-team-due-327">
+   Pick a Team (Due 3/27)
+  </h3>
+  <p>
+   You must choose from among those who have already finished the individual WorldFactory project, and your team must have my OK.  I will choose teams by Monday if I do not hear from you with any preferences.
+  </p>
+  <h3 id="find-a-customer-due-330">
+   Find a Customer (Due 3/30)
+  </h3>
+  <p>
+   This stage is similar to what you did for database, and indeed may even involve the same customer if you like.  You’re looking for a project that will produce a reasonable backlog and a manageable initial sprint, meaning something you can demonstrate as a working “version 0.1” including automated tests, code reviews, and very basic functionality.
+  </p>
+  <h4 id="about-ui">
+   About UI
+  </h4>
+  <p>
+   I would prefer a project that is a web or mobile application, but I recognize not all teams will have the expertise for this.  A desktop GUI interface, e.g. JavaFX, WinForms is a close second, and a purely text UI is acceptable if necessary.
+  </p>
+  <h4 id="deliverable">
+   Deliverable
+  </h4>
+  <p>
+   Deliverable for this phase is a brief (e.g. 400 words) description of what you’re planning to take on, and an explanation of how it meets the stated criteria.  Get my approval for this; no need to hand anything in formally.
+  </p>
+  <h3 id="backlog-and-first-sprint-plan-due-44">
+   Backlog and First Sprint Plan (Due 4/4)
+  </h3>
+  <h4 id="create-a-backlog">
+   Create a backlog
+  </h4>
+  <p>
+   Express your “spec” for the project in the form of a prioritized list of 15-20 PBIs.  This must include 5-10 ready-for-sprint stories, with estimates using ideal days.  It must also include less-refined PBIs, with “shirt size” estimates”.
+  </p>
+  <h4 id="plan-an-initial-sprint">
+   Plan an initial sprint
+  </h4>
+  <p>
+   Select features for an initial sprint, planning for TDD-style development (see below).  Budget for 10 ideal days of effort, including test development and implementation.  (This is 80 hrs, 27 hrs/member – just under 3 weeks nominal effort for a 3 unit class.)
+  </p>
+  <h4 id="set-up-a-repo">
+   Set up a repo
+  </h4>
+  <p>
+   Create a Github-based project repo, and make all team members and SoftwareInventions contributors.
+  </p>
+  <p>
+   Register each of your PBIs as Issues in the repo, with number of ideal days or “shirt size” estimates embedded in the title, e.g. Create Registration System (medium).  Since Github lacks a general prioritization system, fake this by setting up five labels P1-&gt;P5 for priority.
+  </p>
+  <p>
+   Establish a “Sprint 1” milestone and put the agreed upon PBIs under that milestone.  Get my OK on the milestone.
+  </p>
+  <h4 id="deliverable_1">
+   Deliverable
+  </h4>
+  <p>
+   The GitHub issues and first milestone are your deliverable for this step.  They require my formal approval, however, and the deliverable is not “done” until I OK what you have.
+  </p>
+  <h3 id="build-tests-due-411">
+   Build tests (Due 4/11)
+  </h3>
+  <p>
+   Write a suite of automated tests for your initial sprint
+   <em>
+    before you write any code for the features themselves
+   </em>
+   .  (You may, and will probably have to, write interface descriptions, but not implementations.)
+  </p>
+  <h4 id="individual-branches">
+   Individual branches
+  </h4>
+  <p>
+   During test building and implementation, each team member must maintain a separate branch, and periodically merge his/her branch into master.  I will want to review each individual’s work via their branch commit history.  Do not do work on anyone’s branch but your own.
+  </p>
+  <p>
+   There must be some automated tests, but where these are not feasible (e.g. to test UI) a written test script will suffice.
+  </p>
+  <h4 id="about-language-and-framework-choice">
+   About language and framework choice
+  </h4>
+  <p>
+   You are already familiar with JUnit, and using Java and JUnit is an acceptable default choice.
+  </p>
+  <p>
+   If you want to be more adventurous, JS, Python, C#, or C++ are other good languages to consider.  There are JUnit-like libraries for these.  Indeed, many of them are highly similar to JUnit in design.  Interestingly this is not because they are imitating JUnit but because JUnit, and the others, imitate a sort of ur-framework called sUnit, for Smalltalk.  Googling ‘xUnit’ will get you lots of references, including the predictable comprehensive and completely undiscriminating Wikipedia list of all such tools, including the defunct and unused ones.  See me for advice on how to pick one if you go this route.
+  </p>
+  <h4 id="deliverable_2">
+   Deliverable
+  </h4>
+  <p>
+   A test branch under your repo, containing the tests, and a src branch with any interface implementations neede to make the tests buildable (though of course at this stage they’ll all be “red”.
+  </p>
+  <h3 id="implement-your-sprint-due-418">
+   Implement Your Sprint (Due 4/18)
+  </h3>
+  <p>
+   Build code that satisfies your tests and meets the PBIs for your sprint.  In particular, ensure that all your tests, automated or written, are met for the sprint.
+  </p>
+  <h4 id="deliverable_3">
+   Deliverable
+  </h4>
+  <p>
+   Completed code for the sprint, under a src directory in your repo, meeting standard style requirements.  You must demo this to my satisfaction to have met the milestone.
+  </p>
+  <h3 id="code-reviews-420">
+   Code Reviews (4/20)
+  </h3>
+  <p>
+   Be prepared to do code reviews on three other teams, and to be reviewed by three, during our Saturday session.
+  </p>
+ </body>
 </html>
-<!-- This document was created with MarkdownPad, the Markdown editor for Windows (http://markdownpad.com) -->
