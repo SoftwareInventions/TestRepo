@@ -172,7 +172,7 @@ Midterm Exam.  I anticipate a closed-book exam with the following elements:
  * Project meetings (online)
  
 ### Thursday
- * Last code reviews for CodeWorlds.  Project meetings.
+ * Last code reviews for CodeWorlds.  Mock interviews.
  
 ### Saturday
  * Four lectures, devoted to code reviews and/or team meetings
