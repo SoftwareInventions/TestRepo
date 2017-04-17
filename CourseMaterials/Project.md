@@ -36,7 +36,7 @@ Establish a "Sprint 1" milestone and put the agreed upon PBIs under that milesto
 #### Deliverable
 The GitHub issues and first milestone are your deliverable for this step.  They require my formal approval, however, and the deliverable is not "done" until I OK what you have.
 
-### Build tests (Due 4/11)
+### Build tests (Due 4/13)
 Write a suite of automated tests for your initial sprint *before you write any code for the features themselves*.  (You may, and will probably have to, write interface descriptions, but not implementations.) 
 
 #### Individual branches
@@ -52,13 +52,11 @@ If you want to be more adventurous, JS, Python, C#, or C++ are other good langua
 #### Deliverable
 A test branch under your repo, containing the tests, and a src branch with any interface implementations neede to make the tests buildable (though of course at this stage they'll all be "red".
 
-### Implement Your Sprint (Due 4/18)
+### Implement Your Sprint (Due 4/20)
 Build code that satisfies your tests and meets the PBIs for your sprint.  In particular, ensure that all your tests, automated or written, are met for the sprint.
 
 #### Deliverable
 Completed code for the sprint, under a src directory in your repo, meeting standard style requirements.  You must demo this to my satisfaction to have met the milestone.
 
-### Code Reviews (4/20)
+### Code Reviews (4/22)
 Be prepared to do code reviews on three other teams, and to be reviewed by three, during our Saturday session.
-
-
