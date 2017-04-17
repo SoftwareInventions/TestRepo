@@ -162,24 +162,35 @@ Midterm Exam.  I anticipate a closed-book exam with the following elements:
 
 ## Week 12
 ### Tuesday
- * Clint/team meetings, online
+ * Intellectual Property, Employment Agreements, etc.
 
 ### Thursday
- * Meetings with teams, in-person
+ * Project Meetings
 
 ## Week 13
 ### Tuesday
- * Clint/team meetings, online
+ * Project meetings (online)
  
 ### Thursday
- * Clint/team meetings, in-person
+ * Last code reviews for CodeWorlds.  Mock interviews.
  
 ### Saturday
  * Four lectures, devoted to code reviews and/or team meetings
 
 ## Week 14
-## Tuesday
- * Individual writing exercise in lieu of final
+## Thursday
+ * Individual writing exercise in lieu of final.
+ 
+ Write a careful, tutorial introduction to insertion sort and its computational complexity, at an intuitive level.  Write for an audience familiar with basic coding patterns, arrays, and at least one other sorting algorithm, and familiar with complexity at an intuitive level.
+Include diagrams as relevant.
+
+Get your assignment accepted thus:
+
+1. Review it carefully for typos and grammar errors.
+1. Review carefully for any of the standard errors described in the presentation on technical writings.
+1. Consult with me *during a standard evening office hour of mine* to get feedback and corrections, or approval, of your current work.   If I ask for changes, you will generally have to wait a full day to try again, so get done as soon as possible, and do your own careful review ahead of time.
+1. Once approved, submit  your work to Canvas.
+1. Grading will be 100% less late penalties of 10%/day.  Permission to submit will require a good-quality technical document.
 
 ## Week 15
-No items due, though Clint will be available for office hours M/T 5/8-5/9 if needed.
+No items due, though I will be available for office hours M/T 5/8-5/9 (finals week) if needed.
